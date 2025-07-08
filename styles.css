@@ -1,0 +1,32 @@
+body {
+    background: #1D8CAB;
+    font-family: Calibri, Georgia;
+}
+header h1{
+    color:#FFFFFF;
+    font-size: 3em;
+    text-align: center;
+    font-family: Georgia;
+    padding: 4%;
+}
+
+nav {
+    background: #FFFFFF;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    height: 60px;
+}
+
+nav a {
+    font-size: 1.5em;
+    color: #1D8CAB;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 30px,
+}
+
+nav a:hover {
+    color: #1D0C65;
+}
