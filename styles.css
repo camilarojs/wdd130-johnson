@@ -80,3 +80,23 @@ footer {
   font-weight: bold;
   border-top: 3px solid #1D0C65;
 }
+/*child page*/
+.logos{
+  width:100%
+}
+
+.card{
+  background-color: #FFFFFF; 
+  border-left: 5px solid #1D8CAB; 
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card h2{
+  font-family: 'Georgia Pro Black', serif;
+  font-size: 2.5em;
+  color: #1D0C65; 
+  margin: 0;
+}
